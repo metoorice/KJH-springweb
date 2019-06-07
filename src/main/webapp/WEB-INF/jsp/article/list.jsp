@@ -22,7 +22,7 @@ th {
 </head>
 <body>
 	<h2>글 목록</h2>
-	<p>
+	<p> 
 		<a href="./app/article/addForm">글쓰기</a>
 	</p>
 	<p>전체 ${totalCount }건</p>

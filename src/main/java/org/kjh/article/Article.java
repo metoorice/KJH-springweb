@@ -50,7 +50,7 @@ public class Article {
 		this.name = name;
 	}
 
-	public String getCdate() {
+	public String getCdate() { 
 		return cdate;
 	}
 

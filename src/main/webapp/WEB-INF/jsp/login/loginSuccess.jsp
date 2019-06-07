@@ -11,4 +11,4 @@
 		<a href="./">메인으로 가기</a>
 	</p>
 </body>
-<body>
+<body> 

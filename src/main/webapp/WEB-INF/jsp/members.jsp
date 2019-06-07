@@ -40,5 +40,5 @@
 		</tbody>
 	</table>
 </body>
-</head>
+</head> 
 </html>

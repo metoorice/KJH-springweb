@@ -11,7 +11,7 @@
 	<form action="./app/letter/add" method="post">
 	
 	
-		<p>제목 :</p>
+		<p>제목 :</p> 
 		<p>
 			<input type="text" name="title" maxlength="100" required>
 		</p>

@@ -10,7 +10,7 @@
 	<form action="./app/login" method="post">
 		<c:if test="${param.mode=='FAILURE' }">
 			<p style="color: red;">이메일이 없거나 비밀번호가 틀립니다.</p>
-		</c:if>
+		</c:if> 
 		<p>
 			<label>이메일 :</label><br /> <input type="email" name="email"
 				value="${param.email }" required />

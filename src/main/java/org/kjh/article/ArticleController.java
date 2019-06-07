@@ -90,7 +90,7 @@ public class ArticleController {
 	/**
 	 * 글 수정
 	 */
-	@PostMapping("/article/update")
+	@PostMapping("/article/update") 
 	public String update(Article article,
 			@SessionAttribute("MEMBER") Member member) {
 		article.setUserId(member.getMemberId());

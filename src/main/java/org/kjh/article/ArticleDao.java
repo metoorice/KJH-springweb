@@ -13,7 +13,7 @@ public class ArticleDao {
 
 	static final String LIST_ARTICLES = "select articleId, title, userId, name, left(cdate,16) cdate from article order by articleId desc limit ?,?";
 
-	static final String RTICLES = "select count(articleId) from article";
+	static final String RTICLES = "select count(articleId) from article"; 
 
 	static final String GET_ARTICLE = "select articleId, title, content, userId, name, left(cdate,16) cdate, udate from article where articleId=?";
 

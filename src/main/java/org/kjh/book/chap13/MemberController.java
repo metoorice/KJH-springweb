@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.SessionAttribute;
  * 
  * @author Jacob
  */
+
 @Controller
 public class MemberController {
 
